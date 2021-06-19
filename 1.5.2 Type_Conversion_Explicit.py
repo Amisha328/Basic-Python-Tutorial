@@ -48,3 +48,23 @@ print (c)
 c = oct(56)
 print ("After converting 56 to octal string : ",end="")
 print (c)
+
+# using  tuple(), set(), list()
+
+# initializing string
+s = 'python'
+
+# printing string converting to tuple
+c = tuple(s)
+print ("After converting string to tuple : ",end="")
+print (c)
+
+# printing string converting to set
+c = set(s)
+print ("After converting string to set : ",end="")
+print (c)
+
+# printing string converting to list
+c = list(s)
+print ("After converting string to list : ",end="")
+print (c) 
