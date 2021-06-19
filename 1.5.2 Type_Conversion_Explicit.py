@@ -93,3 +93,10 @@ print (c)
 c = dict(tup)
 print ("After converting tuple to dictionary : ",end="")
 print (c)
+
+# Convert ASCII value to characters
+a = chr(76)
+b = chr(77)
+
+print(a)
+print(b)
