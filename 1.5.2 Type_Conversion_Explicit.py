@@ -12,6 +12,7 @@
 # 9. dict() : This function is used to convert a tuple of order (key,value) into a dictionary.
 # 10. str() : Used to convert integer into a string.
 # 11. complex(real,imag) : : This function converts real numbers to complex(real,imag) number.
+# 12. chr(number) : : This function converts number to its corresponding ASCII character.
 
 # Python code to demonstrate Type conversion
 # using int(), float()
