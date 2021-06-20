@@ -11,5 +11,14 @@ input1 = input()
 # output
 print(input1)
 
+# Type cast the user input 
 
+# Typecasting the input to Integer
+
+# input
+num1 = int(input())
+num2 = int(input())
+
+# printing the sum in integer
+print(num1 + num2)
 
