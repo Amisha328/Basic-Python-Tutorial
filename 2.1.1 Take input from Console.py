@@ -3,38 +3,44 @@
 # Console (also called Shell) is basically a command line interpreter that takes input from the user.
 # If it is error free then it runs the command and gives required output otherwise shows the error message. 
 
-# To take input from the user we make use of a built-in function input().
 
-# input
-input1 = input()
+def main():
+    
+    # To take input from the user we make use of a built-in function input().
 
-# output
-print(input1)
+    # input
+    input1 = input()
 
-# Type cast the user input 
+    # output
+    print(input1)
 
-# Typecasting the input to Integer
+    # Type cast the user input 
 
-# input
-num1 = int(input())
-num2 = int(input())
+    # Typecasting the input to Integer
 
-# printing the sum in integer
-print(num1 + num2)
+    # input
+    num1 = int(input())
+    num2 = int(input())
 
-# Typecasting the input to Float
+    # printing the sum in integer
+    print(num1 + num2)
 
-# input
-num1 = float(input())
-num2 = float(input())
+    # Typecasting the input to Float
 
-# printing the sum in float
-print(num1 + num2)
+    # input
+    num1 = float(input())
+    num2 = float(input())
 
-# Typecasting the input to String
+    # printing the sum in float
+    print(num1 + num2)
 
-# input
-string = str(input())
+    # Typecasting the input to String
 
-# output
-print(string)
+    # input
+    string = str(input())
+
+    # output
+    print(string)
+
+if __name__=="__main__":
+        main()
