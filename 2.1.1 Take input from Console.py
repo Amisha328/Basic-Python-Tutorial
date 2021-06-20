@@ -31,4 +31,10 @@ num2 = float(input())
 # printing the sum in float
 print(num1 + num2)
 
+# Typecasting the input to String
 
+# input
+string = str(input())
+
+# output
+print(string)
