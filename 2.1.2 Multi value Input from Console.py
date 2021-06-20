@@ -12,3 +12,5 @@ def main():
     x, y = input(),  input()
 
     
+    # Another solution is to use split()
+    x, y = input().split()
