@@ -49,6 +49,11 @@ def main():
   d['abc'] = 345
   for i in d :
       print("%s  %d" %(i, d[i]))
+
+  # Iterating by index of sequences
+  list = ["basic","python","tutorial"]
+  for index in range(len(list)):
+       print(list[index])  
   
   # use the break and continue statements
   for x in range(5,10):
