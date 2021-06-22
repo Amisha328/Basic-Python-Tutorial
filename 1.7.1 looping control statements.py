@@ -23,3 +23,11 @@ for letter in 'python programming':
     if letter == 'n' or letter == 'g':
          break
 print('Current Letter :', letter)
+
+# Pass Statement
+# We use pass statement to write empty loops. Pass is also used for empty control statement, function and classes.
+
+# An empty loop
+for letter in 'python programming':
+    pass
+print('Last Letter :', letter)
