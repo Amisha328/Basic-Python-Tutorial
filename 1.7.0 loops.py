@@ -62,20 +62,12 @@ def main():
   else:
       print("Inside Else Block")
   
-
   # Nested for loop
   for i in range(1, 5):
     for j in range(i):
          print(i, end=' ')
     print()
 
-
-  # use the break and continue statements
-  for x in range(5,10):
-    if (x == 7): break
-    if (x % 2 == 0): continue
-    print (x)
-  
   #using the enumerate() function to get index 
   days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
   for i, d in enumerate(days):
