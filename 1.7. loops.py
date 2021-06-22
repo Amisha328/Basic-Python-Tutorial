@@ -28,15 +28,32 @@ def main():
     print (x)
 
   
- # use a for loop over a collection
+ # use a for loop over a list
   days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
   for d in days:
     print (d)
+
+  # use a for loop over a tuple
+  days = ("Mon","Tue","Wed","Thu","Fri","Sat","Sun")
+  for d in days:
+    print (d)  
+
+  # use a for loop over a string
+  s = "Looping"
+  for i in s :
+    print(i)  
+
+  # use a for loop over a dictionary
+  d = dict() 
+  d['xyz'] = 123
+  d['abc'] = 345
+  for i in d :
+      print("%s  %d" %(i, d[i]))
   
   # use the break and continue statements
   for x in range(5,10):
-    #if (x == 7): break
-    #if (x % 2 == 0): continue
+    if (x == 7): break
+    if (x % 2 == 0): continue
     print (x)
   
   #using the enumerate() function to get index 
