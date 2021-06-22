@@ -62,6 +62,14 @@ def main():
   else:
       print("Inside Else Block")
   
+
+  # Nested for loop
+  for i in range(1, 5):
+    for j in range(i):
+         print(i, end=' ')
+    print()
+
+
   # use the break and continue statements
   for x in range(5,10):
     if (x == 7): break
