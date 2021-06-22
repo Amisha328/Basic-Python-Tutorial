@@ -51,9 +51,16 @@ def main():
       print("%s  %d" %(i, d[i]))
 
   # Iterating by index of sequences
-  list = ["basic","python","tutorial"]
-  for index in range(len(list)):
-       print(list[index])  
+  list1 = ["basic","python","tutorial"]
+  for index in range(len(list1)):
+       print(list1[index]) 
+
+  # Using else statement with for loops 
+  list2 = ["else","with","for"]
+  for index in range(len(list2)):
+      print(list2[index])
+  else:
+      print("Inside Else Block")
   
   # use the break and continue statements
   for x in range(5,10):
