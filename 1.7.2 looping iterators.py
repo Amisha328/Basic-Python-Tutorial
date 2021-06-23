@@ -6,3 +6,8 @@ i = 0
 while (i < len(cars)):
     print(cars[i])
     i += 1
+
+# Use of for each loop
+cars = ["Aston", "Audi", "McLaren"]
+for x in cars:
+    print(x)    
