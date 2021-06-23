@@ -11,3 +11,8 @@ while (i < len(cars)):
 cars = ["Aston", "Audi", "McLaren"]
 for x in cars:
     print(x)    
+   
+# Indexing using Range function
+cars = ["Aston", "Audi", "McLaren"]
+for i in range(len(cars)):
+    print(cars[i])
