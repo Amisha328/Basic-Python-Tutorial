@@ -16,3 +16,8 @@ for x in cars:
 cars = ["Aston", "Audi", "McLaren"]
 for i in range(len(cars)):
     print(cars[i])
+
+#using the enumerate() function to get index 
+days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+for i, d in enumerate(days):
+    print (i, d)       
