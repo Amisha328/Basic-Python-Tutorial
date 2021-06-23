@@ -59,3 +59,17 @@ accessories = ["GPS", "Car Repair Kit",
 for c, a in zip(cars, accessories):
     print("Car: %s, Accessory required: %s"\
           %(c, a))
+
+# Unzipping           
+# Python program to demonstrate unzip (reverse 
+# of zip)using * with zip function
+
+# Unzip lists
+l1,l2 = zip(*[('Aston', 'GPS'), 
+              ('Audi', 'Car Repair'), 
+              ('McLaren', 'Dolby sound kit') 
+           ])
+
+# Printing unzipped lists      
+print(l1)
+print(l2)
