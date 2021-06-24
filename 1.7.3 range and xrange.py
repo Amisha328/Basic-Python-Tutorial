@@ -49,3 +49,6 @@ print ("The size allotted using xrange() is : ")
 print (sys.getsizeof(x))    # o/p: 40
 
 
+# As range() returns the list, all the operations that can be applied on the list can be used on it.
+# As xrange() returns the xrange object, operations associated to list cannot be applied on them.
+
