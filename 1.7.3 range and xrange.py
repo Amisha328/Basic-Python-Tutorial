@@ -76,4 +76,8 @@ def main():
 if __name__ == "__main__":
   main()
 
-  
+# Important point:
+
+# If you want to write code that will run on both Python 2 and Python 3, use range() as the xrange function is deprecated in Python 3
+# range() is faster if iterating over the same sequence multiple times.
+# xrange() has to reconstruct the integer object every time, but range() will have real integer objects. (It will always perform worse in terms of memory however)  
