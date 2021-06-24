@@ -23,3 +23,7 @@ print (type(a))       # o/p: <type 'list'>
 # testing the type of x
 print ("The return type of xrange() is : ")
 print (type(x))      # o/p: <type 'xrange'> 
+
+# The variable storing the range created by range() takes more memory as compared to variable storing the range using xrange(). 
+# The basic reason for this is the return type of range() is list and xrange() is xrange() object.
+
