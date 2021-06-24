@@ -9,6 +9,8 @@
 # Python code to demonstrate range() vs xrange()
 # on  basis of return type
 
+import sys
+
 # initializing a with range()
 a = range(1,10000)
 
@@ -30,8 +32,6 @@ print (type(x))      # o/p: <type 'xrange'>
 # Python code to demonstrate range() vs xrange()
 # on  basis of memory
 
-import sys
-
 # initializing a with range()
 a = range(1,10000)
 
@@ -47,3 +47,5 @@ print (sys.getsizeof(a))    # o/p: 80064
 # range() takes less memory
 print ("The size allotted using xrange() is : ")
 print (sys.getsizeof(x))    # o/p: 40
+
+
