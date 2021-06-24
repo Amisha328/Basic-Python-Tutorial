@@ -5,6 +5,7 @@
 # When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
 
 def main():
+    
     # Continue Statement
     # It returns the control to the beginning of the loop.
 
