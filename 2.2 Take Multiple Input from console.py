@@ -8,3 +8,9 @@
 x, y = input(), input()
 
 print(x,y)
+
+#  use split()
+#  split() uses any whitespace characters as a delimiter by default
+x, y = input().split()
+
+print(x,y)
