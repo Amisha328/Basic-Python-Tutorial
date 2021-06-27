@@ -14,3 +14,13 @@ print(x,y)
 x, y = input().split()
 
 print(x,y)
+
+# In above two methods  both x and y would be of string.
+# We can convert them to int using another line
+
+x, y = [int(x), int(y)]
+
+print(type(x),type(y))
+
+# We can also use  list comprehension
+
