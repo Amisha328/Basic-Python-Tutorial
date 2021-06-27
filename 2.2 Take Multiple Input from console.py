@@ -17,12 +17,16 @@ print(x,y)
 
 # In above two methods  both x and y would be of string.
 # We can convert them to int using another line
-
 # x, y = [int(x), int(y)]
 
 # print(type(x),type(y))
 
 # We can also use  list comprehension
-x, y = [int(x) for x in input().split()]  
+# x, y = [int(x) for x in input().split()]  
+
+# print(type(x),type(y))
+
+# We can also use  map function
+x, y = map(int, input().split())
 
 print(type(x),type(y))
