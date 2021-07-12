@@ -39,3 +39,13 @@ animals = ['dog', 'cat', 'parrot', 'rabbit']
 uppered_animals = list(map(lambda animal: str.upper(animal), animals))
 
 print(uppered_animals)
+
+# Using lambda() Function with reduce()
+# The reduce() function belongs to the  functools module.
+# reduce() with lambda()
+# to get sum of a list
+
+from functools import reduce
+li = [5, 8, 10, 20, 50, 100]
+sum = reduce((lambda x, y: x + y), li)
+print (sum)
