@@ -26,4 +26,14 @@ def create_cycle():
  
 create_cycle()
 
+# The reference count for the list created is now two.
+x = []
+x.append(l)
+x.append(2)
+
+# delete the list from memory or 
+# assigning object x to None(Null)
+del x 
+# x = None
+
 
